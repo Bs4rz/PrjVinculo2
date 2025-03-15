@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace PrjVinculo
 {
-    internal class Celular
+    class Celular
     {
+ 
         public string Marca { get; set; }
         public double Numero { get; set; }
         public string Operadora { get; set; }
-        public bool Pelicula { get; set; } 
+        public string Modelo { get; set; }
     }
 }

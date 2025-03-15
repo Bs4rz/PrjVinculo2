@@ -46,6 +46,18 @@
 
             Navigation.PushAsync(new MisteryusPage() { BindingContext = produto });
         }
+
+        private void btnCel01_Clicked(object sender, EventArgs e)
+        {
+            Celular celular = new Celular();
+
+            celular.Marca = "Samsung";
+            celular.Numero = 1598456217;
+            celular.Operadora = "LaeleInter";
+            celular.Modelo = "Galaxy S99 Supremo";
+
+            Navigation.PushAsync(new NewPage1() { BindingContext = celular });
+        }
     }
 
 }

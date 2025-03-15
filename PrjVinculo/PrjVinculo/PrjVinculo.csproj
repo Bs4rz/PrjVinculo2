@@ -27,10 +27,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Ceelular.xaml">
+	  <Compile Update="CelPage1.xaml.cs">
+	    <DependentUpon>CelPage1.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="MisteryusPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MisteryusPage.xaml">
+	  <MauiXaml Update="CelPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ProdutoPage.xaml">

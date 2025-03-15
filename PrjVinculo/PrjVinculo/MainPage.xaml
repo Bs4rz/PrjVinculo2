@@ -33,7 +33,10 @@
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
-
+            <Button
+                Text="Celular 1"
+                x:Name="btnCel01"
+                Clicked="btnCel01_Clicked" />
             <Button
                 x:Name="CounterBtn"
                 Text="Click me" 
