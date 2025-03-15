@@ -23,7 +23,7 @@
             HorizontalOptions="End"
             FontAttributes="Italic"
             FontSize="Subtitle"
-            Margin="20 20 0 20"/>
+            Margin="20, 20, 20, 20"/>
         <Label
             Text="{Binding Marca}"
             HorizontalOptions="End"
@@ -35,7 +35,7 @@
             HorizontalOptions="End"
             FontAttributes="Italic"
             FontSize="Subtitle"
-            Margin="20 20 0 20"/>
+            Margin="20, 20, 20, 20"/>
         <Label
             Text="{Binding Operadora}"
             HorizontalOptions="End"
@@ -47,7 +47,7 @@
             HorizontalOptions="End"
             FontAttributes="Italic"
             FontSize="Subtitle"
-            Margin="20 20 0 20"/>
+            Margin="20, 20, 20, 20"/>
         <Label
             Text="{Binding Numero}"
             HorizontalOptions="End"

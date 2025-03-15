@@ -58,6 +58,17 @@
 
             Navigation.PushAsync(new NewPage1() { BindingContext = celular });
         }
+        private void btnCel02_Clicked(object sender, EventArgs e)
+        {
+            Celular celular = new Celular();
+
+            celular.Marca = "Tectoy";
+            celular.Numero = 4458641877;
+            celular.Operadora = "LaeleInter";
+            celular.Modelo = "Zengloing";
+
+            Navigation.PushAsync(new CelPage2() { BindingContext = celular });
+        }
     }
 
 }

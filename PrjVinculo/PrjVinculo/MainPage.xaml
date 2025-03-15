@@ -38,6 +38,10 @@
                 x:Name="btnCel01"
                 Clicked="btnCel01_Clicked" />
             <Button
+                Text="Celular 2"
+                x:Name="btnCel02"
+                Clicked="btnCel02_Clicked" />
+            <Button
                 x:Name="CounterBtn"
                 Text="Click me" 
                 SemanticProperties.Hint="Counts the number of times you click"

@@ -33,6 +33,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CelPage2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MisteryusPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

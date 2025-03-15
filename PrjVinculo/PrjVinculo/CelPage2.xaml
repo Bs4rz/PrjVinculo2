@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrjVinculo.CelPage2"
+             Title="CelPage2"
+             BindingContext="{x:Reference Celular}">
+    <VerticalStackLayout>
+        <Label 
+             Text="Modelo"
+             VerticalOptions="Start"
+             HorizontalOptions="Center"
+             FontAttributes="Bold"
+             FontSize="Title"/>
+        <Label
+             Text="{Binding Modelo}"
+             HorizontalOptions="Center"
+             FontFamily="Baskerville"
+             FontSize="Medium"
+             Margin="14"
+             TextColor="BlueViolet"/>
+        <Label 
+             Text="Marca"
+             HorizontalOptions="End"
+             FontAttributes="Italic"
+             FontSize="Subtitle"
+             Margin="20, 20, 20, 20"/>
+        <Label
+             Text="{Binding Marca}"
+             HorizontalOptions="End"
+             FontFamily="Baskerville"
+             TextColor="BlueViolet"
+             Margin="14"/>
+        <Label
+             Text="Operadora"
+             HorizontalOptions="End"
+             FontAttributes="Italic"
+             FontSize="Subtitle"
+             Margin="20, 20, 20, 20"/>
+        <Label
+             Text="{Binding Operadora}"
+             HorizontalOptions="End"
+             FontFamily="Baskerville"
+             TextColor="BlueViolet"
+             Margin="14"/>
+        <Label
+             Text="Número"
+             HorizontalOptions="End"
+             FontAttributes="Italic"
+             FontSize="Subtitle"
+             Margin="20, 20, 20, 20"/>
+        <Label
+             Text="{Binding Numero}"
+             HorizontalOptions="End"
+             FontFamily="Baskerville"
+             TextColor="BlueViolet"
+             Margin="14"/>
+    </VerticalStackLayout>
+</ContentPage>
