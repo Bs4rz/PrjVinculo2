@@ -9,44 +9,6 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
-           
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-        }
-
-      
-
-        private void btnProduto_Clicked(object sender, EventArgs e)
-        {
-            Produto produto = new Produto();
-
-            produto.Descricao = "RTX 9999";
-            produto.Preco = 70000;
-            produto.Categoria = "Hardware";
-
-            Navigation.PushAsync(new ProdutoPage() { BindingContext = produto});
-           
-        }
-
-        private void btnMisterioso_Clicked(object sender, EventArgs e)
-        {
-            Produto produto = new Produto();
-
-            produto.Descricao = "Porta Kwanzas";
-            produto.Preco = 30;
-            produto.Categoria = "Acessório";
-
-            Navigation.PushAsync(new MisteryusPage() { BindingContext = produto });
-        }
-
         private void btnCel01_Clicked(object sender, EventArgs e)
         {
             Celular celular = new Celular();
@@ -66,6 +28,31 @@
             celular.Numero = 4458641877;
             celular.Operadora = "LaeleInter";
             celular.Modelo = "Zengloing";
+
+            Navigation.PushAsync(new CelPage2() { BindingContext = celular });
+        }
+
+        private void btnCel03_Clicked(object sender, EventArgs e)
+        {
+            Celular celular = new Celular();
+
+            celular.Marca = "Nokia";
+            celular.Numero = 9937379190;
+            celular.Operadora = "Calabreso";
+            celular.Modelo = "Rogerio S43 Plus";
+
+            Navigation.PushAsync(new CelPage2() { BindingContext = celular });
+
+        }
+
+        private void btnCel04_Clicked(object sender, EventArgs e)
+        {
+            Celular celular = new Celular();
+
+            celular.Marca = "Suansoang";
+            celular.Numero = 9568760990;
+            celular.Operadora = "Toscana";
+            celular.Modelo = "Xenofone Z7 Ultra Max";
 
             Navigation.PushAsync(new CelPage2() { BindingContext = celular });
         }
