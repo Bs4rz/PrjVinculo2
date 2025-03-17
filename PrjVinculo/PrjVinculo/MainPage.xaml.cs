@@ -41,7 +41,7 @@
             celular.Operadora = "Calabreso";
             celular.Modelo = "Rogerio S43 Plus";
 
-            Navigation.PushAsync(new CelPage2() { BindingContext = celular });
+            Navigation.PushAsync(new CelPage3() { BindingContext = celular });
 
         }
 
@@ -54,8 +54,9 @@
             celular.Operadora = "Toscana";
             celular.Modelo = "Xenofone Z7 Ultra Max";
 
-            Navigation.PushAsync(new CelPage2() { BindingContext = celular });
+            Navigation.PushAsync(new CelPage4() { BindingContext = celular });
         }
+
     }
 
 }
