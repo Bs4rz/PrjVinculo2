@@ -17,19 +17,23 @@
             <Button
                 Text="Celular 1"
                 x:Name="btnCel01"
-                Clicked="btnCel01_Clicked" />
+                Clicked="btnCel01_Clicked"
+                WidthRequest="300"/>
             <Button
                 Text="Celular 2"
                 x:Name="btnCel02"
-                Clicked="btnCel02_Clicked" />
+                Clicked="btnCel02_Clicked"
+                WidthRequest="300"/>
             <Button
                 Text="Celular 3"
                 x:Name="btnCel03"
-                Clicked="btnCel03_Clicked" />
+                Clicked="btnCel03_Clicked"
+                WidthRequest="300"/>
             <Button
                 Text="Celular 4"
                 x:Name="btnCel04"
-                Clicked="btnCel04_Clicked" />
+                Clicked="btnCel04_Clicked"
+                WidthRequest="300"/>
         </VerticalStackLayout>
     </ScrollView>
 

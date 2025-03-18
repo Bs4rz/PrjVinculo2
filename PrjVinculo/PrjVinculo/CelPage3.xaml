@@ -66,5 +66,10 @@
              FontFamily="Baskerville"
              TextColor="BlueViolet"
              Margin="14"/>
+        <Button
+            Text="Retornar ao menu principal"
+            x:Name="btnMenu3"
+            Clicked="btnMenu3_Clicked" 
+            WidthRequest="300"/>
     </VerticalStackLayout>
 </ContentPage>

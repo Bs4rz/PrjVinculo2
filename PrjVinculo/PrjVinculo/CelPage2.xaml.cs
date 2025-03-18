@@ -6,4 +6,9 @@ public partial class CelPage2 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnMenu2_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MainPage());
+    }
 }
