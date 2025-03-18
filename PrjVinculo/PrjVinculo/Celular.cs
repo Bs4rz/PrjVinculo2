@@ -13,5 +13,6 @@ namespace PrjVinculo
         public double Numero { get; set; }
         public string Operadora { get; set; }
         public string Modelo { get; set; }
+        public double Preco { get; set; }
     }
 }

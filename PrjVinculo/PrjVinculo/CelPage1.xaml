@@ -54,5 +54,17 @@
             FontFamily="Baskerville"
             TextColor="BlueViolet"
             Margin="14"/>
+        <Label
+            Text="Preço"
+            HorizontalOptions="End"
+            FontAttributes="Italic"
+            FontSize="Subtitle"
+            Margin="20, 20, 20, 20"/>
+        <Label
+            Text="{Binding Preco}"
+            HorizontalOptions="End"
+            FontFamily="Baskerville"
+            TextColor="BlueViolet"
+            Margin="14"/>
     </VerticalStackLayout>
 </ContentPage>
