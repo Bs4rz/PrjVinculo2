@@ -61,6 +61,10 @@
             Navigation.PushAsync(new CelPage4() { BindingContext = celular });
         }
 
+        private void btnLista_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PagListaProduto());
+        }
     }
 
 }

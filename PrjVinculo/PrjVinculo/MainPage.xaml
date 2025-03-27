@@ -34,6 +34,17 @@
                 x:Name="btnCel04"
                 Clicked="btnCel04_Clicked"
                 WidthRequest="300"/>
+            <Label
+                Margin="25"
+                Text="Produtos Variados"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <Button
+                Text="Exibir lista"
+                x:Name="btnLista"
+                Clicked="btnLista_Clicked"
+                WidthRequest="300"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
